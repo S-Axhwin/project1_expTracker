@@ -13,11 +13,16 @@ function App() {
     setTot(tot+parseInt(amt));
   }
   function remove(id){
+    let temp = 0
     setTransaction(transaction.filter((value)=>{
-      if(value.id!=id){
+      if(value.id!==id){
+        temp = temp + parseInt(value.amt)
         return value;
+      }else{
+        return false;
       }
-    }))
+  }))
+  setTot(temp);
   }
   return (
     <div>
