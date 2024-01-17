@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ashbyte.in/static/css/main.e19e8732.css",
-    "main.js": "/ashbyte.in/static/js/main.e7a8e54f.js",
-    "index.html": "/ashbyte.in/index.html",
-    "main.e19e8732.css.map": "/ashbyte.in/static/css/main.e19e8732.css.map",
-    "main.e7a8e54f.js.map": "/ashbyte.in/static/js/main.e7a8e54f.js.map"
+    "main.css": "/project1_expTracker/static/css/main.e19e8732.css",
+    "main.js": "/project1_expTracker/static/js/main.4c2304c4.js",
+    "index.html": "/project1_expTracker/index.html",
+    "main.e19e8732.css.map": "/project1_expTracker/static/css/main.e19e8732.css.map",
+    "main.4c2304c4.js.map": "/project1_expTracker/static/js/main.4c2304c4.js.map"
   },
   "entrypoints": [
     "static/css/main.e19e8732.css",
-    "static/js/main.e7a8e54f.js"
+    "static/js/main.4c2304c4.js"
   ]
 }
