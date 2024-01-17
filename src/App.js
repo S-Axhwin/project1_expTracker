@@ -33,21 +33,25 @@ function App() {
     setTot(tot+parseInt(amt));
   }
   function remove(id){
-
+    let temp = 0;
     setTransaction(transaction.filter((value)=>{
       if(value.id!==id){
-        setTot(tot-value.amt)
+        
         return value;
       }else{
+        temp = (tot-value.amt);
         return false;
       }
   }))
+    setTot(temp);
+    
   
   }
   return (
-    <div id='placeholder'>
-      <Header/>
-      <div className='contaienr'>
+    <div>
+      <div className='bg-img'></div>
+      <div className='container'>
+        <Header/>
         <Balance tot={tot}/>
         <History result={transaction} remove={remove} edit={edit} edited={edited} />
         <AddTrans add={addTransaction} />

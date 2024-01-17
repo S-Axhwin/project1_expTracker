@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #353535;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,15 +20,19 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-
-.container {
-  margin: 30px auto;
-  width: 400px;
+.container{
+  text-align: center;
+  position: absolute;
+  left : 40%;
+  top: 15%;
+  background-color: rgba(256 , 256,256,0.5);
+  padding: 4vh;
+  border-radius: 2vh;
 }
-
-h1 {
+h2 {
   letter-spacing: 1px;
-  margin: 0;
+  color: #7154ff;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -171,4 +176,14 @@ input[type='number'] {
 }
 .list li:hover .edit-btn {
   opacity: 1;
+}
+
+.bg-img{
+  position: relative;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  filter: blur(8px); /* Adding blur background image */
 }
